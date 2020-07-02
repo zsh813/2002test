@@ -1,0 +1,46 @@
+main {
+  height: 700px;
+  padding-top: 160px; }
+  main .box {
+    margin: 0 auto;
+    height: 700px;
+    width: 1400px; }
+    main .box .scroll .foodOne div h2 {
+      color: #E1251B; }
+    main .box .scroll .foodOne div span {
+      color: #E1251B; }
+    main .box .scroll > div {
+      height: 70px;
+      overflow: hidden;
+      margin-bottom: 20px; }
+      main .box .scroll > div h2 {
+        font-size: 52px;
+        font-weight: 900;
+        color: #808080; }
+      main .box .scroll > div span {
+        margin-left: 30px;
+        font-size: 42px;
+        color: #808080; }
+      main .box .scroll > div li {
+        padding-top: 40px; }
+        main .box .scroll > div li a {
+          text-align: center; }
+      main .box .scroll > div .banner-box {
+        height: 350px; }
+        main .box .scroll > div .banner-box .food-img {
+          width: 278px;
+          height: 295px;
+          margin: 0 auto;
+          border-radius: 30px;
+          box-shadow: 0px 2px 30px #eee;
+          overflow: hidden; }
+        main .box .scroll > div .banner-box .food-name {
+          padding-top: 40px;
+          text-align: center;
+          font-size: 12px;
+          color: #333; }
+
+footer {
+  z-index: 9999;
+  position: fixed;
+  width: 100%; }

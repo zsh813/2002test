@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/index.css">
+<link rel="stylesheet" href="../css/icon.css">
+<link rel="stylesheet" href="../css/swiper.css">
+<link rel="stylesheet" href="../css/news.css">
+<script src="../script/jquery.min.js"></script>
+<script src="../script/swiper.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header_box">
+            <a class="logo_box" href="index.html">
+                <img src="../imgs/pros/logo.svg" alt="logo">
+            </a>
+            <ul class="nav_box">
+                <li>
+                    <a href="">关于我们</a>
+                    <div>
+                        <ul class="clear-fix">
+                            <li><a href="./brand.html">品牌介绍</a></li>
+                            <li><a href="./brand.html#h">品牌历程</a></li>
+                            <li><a href="">品牌理念</a></li>
+                            <li><a href="">品牌故事</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">新闻中心</a>
+                    <div>
+                        <ul>
+                            <li><a href="./news.html">媒体聚焦</a></li>
+                            <li><a href="">品牌视频</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">零食王国</a>
+                    <div>
+                        <ul>
+                            <li><a href="./list.html">产品品类</a></li>
+                            <li><a href="">线上商城</a></li>
+                            <li><a href="">全国门店</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">VIP</a>
+                </li>
+                <li>
+                    <a href="">投资者关系</a>
+                    <div>
+                        <ul>
+                            <li><a href="">公司公告</a></li>
+                            <li><a href="">公司治理</a></li>
+                            <li><a href="">投资者来访</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">联系我们</a>
+                    <div>
+                        <ul>
+                            <li><a href="">加盟专区</a></li>
+                            <li><a href="">招聘专区</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="share_box">
+                <div>
+                    <a href="index.html">CN</a>
+                    /
+                    <a href="index_en.html">EN</a>
+                </div>
+                <div>
+                    <a id="icon_1" href="">Follow us <img id="icon_2" src="../imgs/pros/more.png" alt=""></a>
+                    <script>
+                        $('#icon_1').on("mouseover",()=>{
+                            $("#icon_2")[0].src = "../imgs/pros/more_on.png"
+                        })
+                        $('#icon_1').on("mouseout",()=>{
+                            $("#icon_2")[0].src = "../imgs/pros/more.png"
+                        })
+                    </script>                
+                    <!-- 更多 -->
+                    <div class="more_nav">
+                        <ul>
+                            <li><a href=""><i class="iconfont icon-lppzlogo"></i></a></li>
+                            <li><a href=""><i class="iconfont icon-weibo1"></i></a></li>
+                            <li><a href=""><i class="iconfont icon-weixin1"></i>
+                            <div>
+                                <img src="../imgs/pros/qrcode_weixin.jpg" alt="">
+                            </div>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+
+    <main>
+        <div>
+            <h2>
+                MEDIA FOCUS
+            </h2>
+            <h3>媒体聚焦</h3>
+            <div class="news_box">
+                <!-- <div class="news">
+                    <div class="news_text">
+                            <h4>08.19 <span>2019</span></h4>
+                            <p>
+                                联手敦煌博物馆，良品铺子国潮礼盒成中秋“黑马”
+                            </p>
+                    </div>
+                    <div class="news_img">
+                        <img src="../imgs/data/news1.png" alt="8.19">
+                    </div>
+                    <div class="news_bg">
+                        <img src="../imgs/pros/phi_bg.svg" alt="">
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <footer>
+        <div class="foot">
+            <div>
+                <a href="javascript:void();" class="iconfont icon-tianmao"></a>
+                <a href="javascript:void();" class="iconfont icon-jd"></a>
+                <a href="javascript:void();" class="iconfont icon-lppz"></a>
+                <a href="javascript:void();" class="iconfont icon-weixin"></a>
+                <a href="javascript:void();" class="iconfont icon-weibo"></a>
+                <span class="haiwai">海外</span>
+            </div>
+            
+            <p>
+                ©️ 2019 湖北良品铺子食品工业有限公司 <span>|</span><a href="http://www.beian.miit.gov.cn">鄂ICP备09021577号</a> <span>|</span><img src="../imgs/pros/beian.png" alt="备案"> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42011202001521">鄂公网安备 42011202001521号</a> 
+            </p>
+
+            <h4 href=""><a href="javascript:void()" id="top"> Back to top <span>^</span></a></h4>
+            
+        </div>
+    </footer>
+</body>
+</html>
+<script src="../script/news.js"></script>
+
+
+<script>
+    // 获取置顶对象
+    var obj = document.querySelector("#top")
+    var scrollTop = null;
+    
+    //置顶效果
+    $('#top').on('click',()=>{
+        var timer = setInterval(function() {
+            window.scrollBy(0, -25);
+            if (scrollTop == 0) 
+                clearInterval(timer);
+        }, 2);
+    })
+
+    // 窗口滚动检测
+    scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+
+
+
+    $.ajax({
+    url: "../script/data.json",
+    success: function(msg){
+        console.log(msg[2].img.length);
+            for(let j=0;j<msg[2]["img"].length;j++){
+                var str = `
+                <div class="news">
+                    <div class="news_text">
+                            <h4>${msg[2].day[j]}<span>${msg[2].year[j]}</span></h4>
+                            <p>
+                            ${msg[2].text[j]}
+                            </p>
+                    </div>
+                    <div class="news_img">
+                        <img src="${msg[2].img[j]}"alt="${msg[2].day[j]}">
+                    </div>
+                    <div class="news_bg">
+                        <img src="../imgs/pros/phi_bg.svg"alt="">
+                    </div>
+                </div>
+            `
+            console.log(str);
+            $(".news_box").append(str);
+            }
+    }
+ });
+
+</script>
+

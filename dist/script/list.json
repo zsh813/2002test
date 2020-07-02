@@ -1,0 +1,25 @@
+[{
+    "img":[
+        "../imgs/data/list/s1.jpg",
+        "../imgs/data/list/s2.jpg",
+        "../imgs/data/list/s3.jpg",
+        "../imgs/data/list/s4.jpg"],
+    "name":["精选良品山核桃","原生腰果","手剥松子","夏威夷果"]
+},
+{
+    "img":[
+        "../imgs/data/list/s5.jpg",
+        "../imgs/data/list/s6.jpg",
+        "../imgs/data/list/s7.jpg",
+        "../imgs/data/list/s8.jpg",
+        "../imgs/data/list/s9.jpg"],
+    "name":["哟哟鱿","鱿鱼圈","花蛤","鱿鱼仔","虾夷扇贝"]
+},
+{
+    "img":[
+        "../imgs/data/list/s1.jpg",
+        "../imgs/data/list/s2.jpg",
+        "../imgs/data/list/s3.jpg",
+        "../imgs/data/list/s4.jpg"],
+    "name":["精选良品山核桃","原生腰果","手剥松子","夏威夷果"]
+}]

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/icon.css">
+    <link rel="stylesheet" href="../css/swiper.css">
+    <link rel="stylesheet" href="../css/brand.css">
+    <script src="../script/jquery.min.js"></script>
+    <script src="../script/swiper.min.js"></script>
+</head>
+<body>
+        <header>
+            <div class="header_box">
+                <a class="logo_box" href="index.html">
+                    <img src="../imgs/pros/logo.svg" alt="logo">
+                </a>
+                <ul class="nav_box">
+                    <li>
+                        <a href="">关于我们</a>
+                        <div>
+                            <ul class="clear-fix">
+                                <li><a href="./brand.html">品牌介绍</a></li>
+                                <li><a href="./brand.html#h">品牌历程</a></li>
+                                <li><a href="">品牌理念</a></li>
+                                <li><a href="">品牌故事</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">新闻中心</a>
+                        <div>
+                            <ul>
+                                <li><a href="./news.html">媒体聚焦</a></li>
+                                <li><a href="">品牌视频</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">零食王国</a>
+                        <div>
+                            <ul>
+                                <li><a href="./list.html">产品品类</a></li>
+                                <li><a href="">线上商城</a></li>
+                                <li><a href="">全国门店</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">VIP</a>
+                    </li>
+                    <li>
+                        <a href="">投资者关系</a>
+                        <div>
+                            <ul>
+                                <li><a href="">公司公告</a></li>
+                                <li><a href="">公司治理</a></li>
+                                <li><a href="">投资者来访</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">联系我们</a>
+                        <div>
+                            <ul>
+                                <li><a href="">加盟专区</a></li>
+                                <li><a href="">招聘专区</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="share_box">
+                    <div>
+                        <a href="index.html">CN</a>
+                        /
+                        <a href="#">EN</a>
+                    </div>
+                    <div>
+                        <a id="icon_1" href="">Follow us <img id="icon_2" src="../imgs/pros/more.png" alt=""></a>
+                        <script>
+                            $('#icon_1').on("mouseover",()=>{
+                                $("#icon_2")[0].src = "../imgs/pros/more_on.png"
+                            })
+                            $('#icon_1').on("mouseout",()=>{
+                                $("#icon_2")[0].src = "../imgs/pros/more.png"
+                            })
+                        </script>                
+                        <!-- 更多 -->
+                        <div class="more_nav">
+                            <ul>
+                                <li><a href=""><i class="iconfont icon-lppzlogo"></i></a></li>
+                                <li><a href=""><i class="iconfont icon-weibo1"></i></a></li>
+                                <li><a href=""><i class="iconfont icon-weixin1"></i>
+                                <div>
+                                    <img src="../imgs/pros/qrcode_weixin.jpg" alt="">
+                                </div>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+    
+
+        <main>
+            <div>
+                <div class="brand-img">
+                    <img src="../imgs/pros/lpjs.jpg" alt="">
+                </div>
+                <!-- 品牌介绍 -->
+                <div class="brand-i">
+                    <div>
+                        <h2>COMPANY PROFIL</h2>
+                        <span>品牌介绍</span>
+                        <p>2006年8月诞生于武汉的良品铺子，13年来深耕华中，辐射全国，迄今已有逾2200多家门店遍布华中、华东、华南、西北、西南等13省。</p>
+                        <p>良品铺子14年专注高端零食，精选全球好原料，产品超过1000种，其中以十二经典产品最为热销。由十二经典产品组成的「拾贰经典」高端礼盒，获得众多明星及知名企业追捧。良品铺子自2015年起连续5年高端零食全国销售领先，成为四亿吃货的挑剔之选。</p>
+                        <p>2019年以来，良品铺子签约国内一线明星吴亦凡为品牌代言人，并将“高端零食”定义为品牌战略和企业战略，以期以高端零食战略引领行业升级。</p>
+                        <p>2020年初，良品铺子上交所主板上市。</p>
+                    </div>
+                    <div class="brand-i-r">
+                        <div class="img">
+                            <img src="../imgs/pros/about_company.jpg" alt="err">
+                        </div>
+                    </div>
+                </div>
+                <!-- 品牌历程 -->
+                <div class="brand-h" id="h">
+                    <div>
+                        <h2>PHYSICAL STORE</h2>
+                        <span>品牌历程</span>
+                        <div class="brand-h-box clear-fix" >
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+
+                                    <!-- <div class="swiper-slide">
+                                        <div class="our-histroy">
+                                            <div class="h-item">
+                                                <div class="item-text">
+                                                    <h3>2020年</h3>
+                                                    <div>
+                                                        <img src="../imgs/da2020.png" alt="2020">
+                                                        <img class="img_bg" src./imgs//pros/bg_20.pnalt="bg">
+                                                    </div>
+                                                    <p class='moreText'>
+                                                        5月20日，牵手金句女尔打造综艺感Max儿童布会直播秀，超过170线观看。
+                                                    </p>
+                                                    <i id="more">+</i>
+                                                    <span class="cut"></span>
+                                                    <h5 class="ball-1"></h5>
+                                                    <h5 class="ball-2"></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+
+        <footer>
+            <div class="foot">
+                <div>
+                    <a href="javascript:void();" class="iconfont icon-tianmao"></a>
+                    <a href="javascript:void();" class="iconfont icon-jd"></a>
+                    <a href="javascript:void();" class="iconfont icon-lppz"></a>
+                    <a href="javascript:void();" class="iconfont icon-weixin"></a>
+                    <a href="javascript:void();" class="iconfont icon-weibo"></a>
+                    <span class="haiwai">海外</span>
+                </div>
+                
+                <p>
+                    ©️ 2019 湖北良品铺子食品工业有限公司 <span>|</span><a href="http://www.beian.miit.gov.cn">鄂ICP备09021577号</a> <span>|</span><img src="../imgs/pros/beian.png" alt="备案"> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42011202001521">鄂公网安备 42011202001521号</a> 
+                </p>
+    
+                <h4 href=""><a href="javascript:void()" id="top"> Back to top <span>^</span></a></h4>
+                
+            </div>
+        </footer>
+</body>
+</html>
+<script src="../script/brand.js"></script>
+<script>
+    // 获取置顶对象
+    var obj = document.querySelector("#top")
+    var scrollTop = null;
+    
+    //置顶效果
+    $('#top').on('click',()=>{
+        var timer = setInterval(function() {
+            window.scrollBy(0, -25);
+            scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+            if (scrollTop == 0) 
+                clearInterval(timer);
+        }, 2);
+    })
+</script>
+<script>
+    //轮播图
+    var mySwiper = new Swiper('.swiper-container', {
+        loop:true,
+        slidesPerView: 4,
+        slidesPerGroup: 1,
+        
+        observer:true,//修改swiper自己或子元素时，自动初始化swiper
+        observeParents:false,//修改swiper的父元素时，自动初始化swiper
+        onSlideChangeEnd: function(swiper){
+        　　　swiper.update();  
+        　　　mySwiper.startAutoplay();
+        　　  mySwiper.reLoop();  
+        }
+        })
+
+
+        $.ajax({
+    url: "../script/data.json",
+    success: function(msg){
+            for(let j=0;j<msg[1]["img"].length;j++){
+            var str = `
+            <div class="swiper-slide">
+                <div class="our-histroy">
+                    <div class="h-item">
+                        <div class="item-text">
+                            <h3>${msg[1].year[j]}年</h3>
+                            <div>
+                                <img src="${msg[1].img[j]}" alt="2020">
+                                <img class="img_bg" src./imgs//pros/bg_20.pnalt="bg">
+                            </div>
+                            <p class='moreText'>
+                            ${msg[1].text[j]}
+                            </p>
+                            <i id="more">+</i>
+                            <span class="cut"></span>
+                            <h5 class="ball-1"></h5>
+                            <h5 class="ball-2"></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `
+            $(".swiper-wrapper").append(str);
+            }
+    }
+ });
+</script>

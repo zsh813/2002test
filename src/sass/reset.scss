@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body,html,ul,li,ol,dd,dt,dl,h1,h2,h3,h4,h5,h6,p,img,input,textarea,fieldset,figure,legend,figcaption,main,nav{
+	margin: 0;
+	padding: 0;
+}
+ul,ol,li,dl,dd,dt{
+    list-style: none;
+}
+a,i{
+    text-decoration: none;
+    font-style: unset;
+}
+h1,h2,h3,h4,h5,h6,strong{
+    font-weight: normal;
+}
+img{
+    border: 0;
+}
+
+.clear-fix::before{
+    content: '.';
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+    display: block;
+}

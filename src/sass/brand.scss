@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+main{
+    .brand-img{
+        padding-top: 80px;
+    }
+    .brand-i{
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+        height: 484px;
+        width: 1400px;
+        margin: 100px auto 0;
+        div{
+            float: left;
+            padding-right: 20px;
+            margin-top: 50px;
+            width: 560px;
+            height: 428px;
+            h2{
+                font-size: 34px;
+                font-weight: 700;
+                color: #E1251B;
+                position: relative;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    width: 180px;
+                    height: 1px;
+                    background-color: #e1251b;
+                }
+            }
+            span{
+                display: block;
+                color: #E1251B;
+                font-size: 30px;
+                padding-top: 30px;
+            }
+            p{
+                z-index: 2;
+                display: block;
+                &:first-of-type{
+                    margin-top: 80px;
+                }
+                font-size: 14px;
+                line-height: 28px;
+            }
+        }
+        .brand-i-r{
+            position: relative;
+            z-index: -1;
+            margin-left: -145px;
+            padding: 0;
+            float: left;
+            width: 945px;
+            height: 484px;
+            background-color: #F7F7F7;
+            .img{
+                width: 692px;
+                height: 484px;
+                margin: 0;
+                padding: 0;
+                float: right;
+                img{
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .brand-h{
+        &>div{
+            margin: 0 auto;
+            width: 1400px;
+            margin-top: 110px;
+            min-height: 20px;
+            h2{
+                font-size: 34px;
+                font-weight: 700;
+                color: #E1251B;
+                position: relative;
+            }
+            span{
+                display: block;
+                color: #E1251B;
+                font-size: 30px;
+                padding-top: 20px;
+            }
+            .brand-h-box{
+                min-height: 430px;
+                margin: 80px 0 120px;
+            }
+        }
+    }
+    .swiper-wrapper{
+        min-height: 400px;
+    }
+    .our-histroy{
+        width: 333px;
+        min-height: 500px;
+        position: relative;
+        .cut{
+            transition: .3s;
+            display: block;
+            border-top: 1px solid #B2B2B2;
+            width: 300px;
+            position: absolute;
+            bottom: -38px;left: 20px;
+        }
+       .h-item{
+           margin-left: 12px;
+            width: 333px;
+            min-height: 365px;
+            
+            .item-text{
+                .ball-1{
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 7px;
+                    background-color: #B2B2B2;
+                    position: absolute;
+                    top: 0px;left: -7px;
+                }
+                .ball-2{
+                    text-align: center;
+                    color: #fff;
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 12px;
+                    background-color: #B2B2B2;
+                    position: absolute;
+                    bottom: -30px;left: -12px;
+                }
+                position: relative;
+                border-left: 1px solid #B2B2B2;
+                padding-left: 15px;
+                margin: 0;
+                width: 250px;
+                min-height: 3px;
+                h3{
+                    font-size: 30px;
+                    color: #B2B2B2;
+                    font-weight: 600;
+                    padding-bottom: 20px;
+                }
+                div{
+                    width: 250px;
+                    height: 166px;
+                    margin-bottom: 20px;
+                    position: relative;
+                    .img{
+                        width: 100%;
+                    }
+                }
+                .img_bg{
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    opacity: 0;
+                    transition: .2s;
+                    &:hover{
+                        opacity:1;
+                    }
+                }
+                .moreText{
+                    transition: 3s;
+                }
+                p{
+                    padding-right: 2px;
+                    line-height: 24px;
+                    font-size: 14px;
+                    color: #808080;
+                    height: 48px;
+                    overflow: hidden;
+                }
+                i{
+                    color: #808080;
+                    font-weight: 100;
+                    font-size: 30px;
+                    display: block;
+                    text-align: right;
+                    padding-right: 10px;
+                }
+            }
+       }
+    }
+}
