@@ -27,8 +27,8 @@
          $(".item-text").css({
              "border-color":'#B2B2B2',
          });
-         $(".item-text").find(".ball-2").html("")
-         $(".item-text").find("i").html("+")
+         $(".item-text").find(".ball-2").html("");
+         $(".item-text").find("i").html("+");
 
         //效果
          if($(this).find(".cut").width()==300){
@@ -57,8 +57,8 @@
              "color":'#E1251B',
          });
          //
-         $(this).find(".ball-2").html("✔")
-         $(this).find("i").html("-")
+         $(this).find(".ball-2").html("✔");
+         $(this).find("i").html("-");
         
      }else{
          $(this).find(".moreText").css({
@@ -81,8 +81,8 @@
          $(this).css({
              "border-color":'#B2B2B2',
          });
-         $(this).find(".ball-2").html("")
-         $(this).find("i").html("+")
+         $(this).find(".ball-2").html("");
+         $(this).find("i").html("+");
          
      }
      }
